@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modelob.css">
+    <title>verificador de idade</title>
+</head>
+<body>
+    <header>
+      <h1>
+        sua faixa etária
+      </h1>
+    </header>
+    <section>
+        <div>
+           <p>Data de Nascimento
+           <input type="number" name="txtano" id="txtano">
+           </p>
+           <p>Gênero:
+            <input type="radio" name="radsex" id="mas">
+            <label for="mas">masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">feminino</label>
+            <input type="radio" name="radsex" id="nb">
+            <label for="fem">Não-Binário</label>
+            <input type="radio" name="radsex" id="ot">
+            <label for="fem">Outros</label>
+           </p>
+           <p>
+            <input type="button" value="verificar" id="btn">
+           </p>
+        </div>
+        <div id="res">
+            Verifique sua faixa etária
+        </div>
+    </section>
+    <footer>
+      <p>&copy; Filipe.Dev</p>
+    </footer>
+    <script src="modelob.js"></script>
+</body>
+</html>
